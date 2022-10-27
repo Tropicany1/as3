@@ -10,7 +10,7 @@ const getData = async (url, params) => {
     const movieData = await getData("https://api.themoviedb.org/3/search/movie", {
       params: {
         api_key: "541f480956a206bb8529fb019433027e",
-        query: "batman",
+        query: "despicable me",
       }
     });
   
@@ -41,7 +41,7 @@ const getData = async (url, params) => {
     const movieData = await getData("https://api.themoviedb.org/3/search/movie", {
       params: {
         api_key: "541f480956a206bb8529fb019433027e",
-        query: "batman",
+        query: "despicable me",
       }
     });
   
