@@ -1,0 +1,11 @@
+body {
+    background-color:pink;
+    font-family: 'Milky Coffee', sans-serif;
+  }
+  
+  p {
+    color: palevioletred;
+    font-family: 'Milky Coffee', sans-serif;
+    font-size: large;
+    font-weight: bold;
+  }

@@ -51,7 +51,7 @@ const getData = async (url, params) => {
           api_key: "541f480956a206bb8529fb019433027e",
           append_to_response: "videos",
         }
-      });
+      }); 
   
       const trailer = extraData.data.videos.results.filter((video) => video.type === "Trailer").at(0).key;
       const p = document.createElement('p');
