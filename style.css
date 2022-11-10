@@ -9,3 +9,9 @@ body {
     font-size: large;
     font-weight: bold;
   }
+  
+ h1 {
+  font-size: 80px;
+  right: 200px ;
+  color: papayawhip;
+ }
