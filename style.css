@@ -9,3 +9,37 @@ p {
   font-size: large;
   font-weight: bold;
 }
+
+h1 {
+font-size: 80px;
+margin-left: 200px ;
+color: papayawhip;
+}
+
+.selector {
+margin-left: 700px;
+font-size: xx-large;
+color: peachpuff;
+
+}
+
+.button {
+margin-left: 250px;
+margin-top: 10px;
+}
+
+img {
+width: 450px;
+margin-left: -290px;
+}
+
+iframe {
+margin-bottom: 60px;
+margin-left: 55px;
+width: 450px;
+height: 450px;
+}
+
+.movieselect {
+margin-left: -400px;
+}

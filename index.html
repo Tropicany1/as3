@@ -8,26 +8,30 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js" defer></script>
+    <link href="http://fonts.cdnfonts.com/css/milky-coffee" rel="stylesheet">
 </head>
 <body>
-    <form action=>
-        <label for="movie">Choose a movie:</label>
-        <select name="movie" id="movie">
+  <h1> Pick a movie from my all time favourites! </h1>
+  <div class="selector">
+        <label for="movieselect">Choose a movie:</label>
+        <select name="Movies" id="movieselect">
           <option value="despicable Me 3">Despicable Me 3</option>
-          <option value="despicable Me">Despicable Me</option>
+          <option value="of saiki k">The Disastrous Life of Saiki K.</option>
           <option value="minions: Home Makeover">Minions: Home Makeover</option>
-          <option value="minions">Minions</option>
+          <option value="spiderman">Spiderman</option>
           <option value="despicable Me Presents: Minion Madness">Despicable Me Presents: Minion Madness</option>
           <option value="panic in the Mailroom">Panic in the Mailroom</option>
           <option value="despicable Me 2">Despicable Me 2</option>
           <option value="minions: The Rise Of Gru">Minions: The Rise Of Gru</option>
-          <option value="minions & More 1">Minions & More 1</option>
-          <option value="minions: Puppy">Minions: Puppy</option>
-
+          <option value="a silent voice">A Silent Voice: The Movie</option>
+          <option value="naruto">Boruto: Naruto the Movie</option>
+         
         </select>
         <br><br>
-        <input type="submit" value="Get">
-      </form>
-    
+        <button class="button" onClick="getMovies1()"> Get </button>
+       <div id =movieInfo>
+ 
+       </div>
+    </div>
 </body>
 </html>
