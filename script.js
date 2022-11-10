@@ -34,7 +34,7 @@ const getMovies1 = async () => {
     const img = document.createElement('img');
     const iframe = document.createElement('iframe');
 
-    p.innerHTML = `${movie.title} -- ${movie.release_date} -- ${movie.popularity}`;
+    p.innerHTML = `${movie.title} -- ${movie.release_date} -- ${movie.overview}-- ${movie.popularity}`;
     img.src = `https://image.tmdb.org/t/p/w500${movie.poster_path}`
     iframe.src = `https://www.youtube.com/embed/${trailer}`
 

@@ -1,5 +1,6 @@
 body {
   background-color:pink;
+  text-align: center;
   font-family: 'Milky Coffee', sans-serif;
 }
 
@@ -15,6 +16,8 @@ font-size: 80px;
 text-align: center;
 /* margin-left: 200px ; */
 color: papayawhip;
+border-style: double;
+border-color: azure;
 }
 
 .selector {
@@ -26,13 +29,14 @@ color: peachpuff;
 }
 
 .button {
-margin-left: 250px;
-margin-top: 10px;
+/* margin-left: 250px;
+margin-top: 10px; */
 }
 
 img {
-width: 450px;
-margin-left: -290px;
+width: 200px;
+/* margin-left: -290px; */
+aspect-ratio: 2/3;
 }
 
 iframe {
