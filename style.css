@@ -12,12 +12,14 @@ p {
 
 h1 {
 font-size: 80px;
-margin-left: 200px ;
+text-align: center;
+/* margin-left: 200px ; */
 color: papayawhip;
 }
 
 .selector {
-margin-left: 700px;
+  text-align: center;
+/* margin-left: 700px; */
 font-size: xx-large;
 color: peachpuff;
 
@@ -34,10 +36,12 @@ margin-left: -290px;
 }
 
 iframe {
-margin-bottom: 60px;
-margin-left: 55px;
-width: 450px;
-height: 450px;
+  aspect-ratio: 16 / 9;
+  height: 300px;
+/* margin-bottom: 60px; */
+/* margin-left: 55px; */
+/* width: 450px; */
+/* height: 450px; */
 }
 
 .movieselect {
